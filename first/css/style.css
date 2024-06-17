@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.header{
+    display: flex;
+}
+
+.header__logo{
+    width: 120px;
+    height: 40px;
+    padding: 0px 581px 0px 230px;
+}
+
+.header__nav{
+    list-style: none;
+    display: flex;
+}
