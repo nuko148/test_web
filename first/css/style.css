@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+html,body {
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+}
+
 .header{
     display: flex;
 }
@@ -7,16 +16,42 @@
 .header__logo{
     width: 120px;
     height: 40px;
-    padding: 0px 581px 0px 230px;
+    padding: 10px 581px 10px 230px;
 }
 
 .header__nav-list{
     list-style: none;
     display: flex;
-    padding: 10px 0;
-    text-align: center;
+    padding: 20px 0;
 }
 
 .header__nav-item {
     margin-left: 30px;
+}
+
+.main__top-img{
+    width: 100%;
+}
+
+.main__section-h2{
+    text-align: center;
+    color: #383E45;
+    font-family: 'メイリオ', 'Meiryo', sans-serif;
+    font-weight: Bold;
+    text-decoration:underline;
+    font-size: 32px;
+    padding: 80px;
+    
+}
+
+.main__section-content{
+    display: flex;
+}
+
+.main__section-ul{
+    display: flex;
+}
+
+.main__section-item{
+    width: 100%;
 }
