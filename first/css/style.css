@@ -6,11 +6,12 @@ html,body {
 
 .container{
     width: 100%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
 }
 
 .header{
     display: flex;
+    justify-content: center;
 }
 
 .header__logo{
