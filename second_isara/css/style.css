@@ -1,10 +1,53 @@
 @charset "UTF-8";
 
+html,body {
+    width: 100%;
+}
 
+.header{
+    margin: 0 auto;
+}
 
+.header__content{
+    display: flex;
+}
 
+.header__content img{
+    width:128px;
+}
 
+.header__content--text{
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    bottom: -30px;
+}
 
+.header__content-contact--doc{
+    color: #fff;
+    background-color: #da6b64;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.header__content-contact p{
+    margin: 0;
+}
+
+.doc__content{
+    display: block;
+    text-align: center;
+    background-color: #da6b64;
+}
+
+.doc__content img{
+    width: 20px;
+}
+
+.doc__content a{
+    font-size: 12px;
+    color: #fff;
+}
 
 .footer-bottom-ul{
     display: flex;
