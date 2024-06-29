@@ -10,24 +10,40 @@ html,body {
 
 .header__content{
     display: flex;
+    align-self: flex-end; /* 要素をそれぞれ下詰め */
+    width: 1170px; /* ヘッダーの幅 */
+    max-width: calc(100% - 20px); /* レスポンシブ：画面の大きさでヘッダーの最大幅が変化 */
+    margin: 0 auto;
+    padding: 20px 0;
 }
-
-.header__content img{
+.header__logo {
     width:128px;
 }
 
-.header__content--text{
-    font-size: 12px;
-    font-weight: 600;
-    position: relative;
-    bottom: -30px;
+
+.header__logo img{
+    width:100%; /* 親要素に対して100%の幅 */
 }
 
-.header__content-contact--doc{
-    color: #fff;
+.header__text{
+    align-self: flex-end; /* 下詰め */
+    margin-bottom: 10px; /* 横のロゴと高さを合わせたかったので */
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.header__link{
+    margin-left: auto; /* header__linkを右詰めにするためのマージン */
+}
+.header__link a{
     background-color: #da6b64;
     border-radius: 25px;
-    text-align: center;
+    display: flex; /* フレックスボックスを使用 */
+    align-items: center; /* 縦方向の中央揃え */
+    justify-content: center; /* 水平方向の中央揃え */
+    padding: 15px 40px 7px; /* テキストを中央に持ってきたかったので */
+    color: #fff;
+    text-decoration: none;
 }
 
 .header__content-contact p{
