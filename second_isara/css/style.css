@@ -2,8 +2,13 @@
 
 html,body {
     width: 100%;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+    letter-spacing: 1.5px;
 }
 
+p {
+    margin: 0 0 10px;
+}
 /* header */
 .header{
     margin: 0 auto;
@@ -22,9 +27,9 @@ html,body {
     width:128px;
 }
 
-
 .header__logo img{
     width:100%; /* 親要素に対して100%の幅 */
+    margin-top: -6px;
 }
 
 .header__text{
@@ -43,15 +48,14 @@ html,body {
     display: flex; /* フレックスボックスを使用 */
     align-items: center; /* 縦方向の中央揃え */
     justify-content: center; /* 水平方向の中央揃え */
-    padding: 15px 40px 7px; /* テキストを中央に持ってきたかったので */
+    padding: 11px 40px 11px; /* テキストを中央に持ってきたかったので */
     color: #fff;
     text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
 }
 
-.header__content-contact p{
-    margin: 0;
-}
-
+/* header スマホ用 */
 .doc__content{
     display: block;
     text-align: center;
@@ -70,32 +74,95 @@ html,body {
 /* main */
 .main__content{
     width: 100%;
+    
 }
 
-
+.main__content img{
+    width: 317px;
+}
 
 .bg__img{
     background-image: url(../img/main.jpg);
+    background-position: center;
     background-size: cover;
     max-width: 100%;
     text-align: center;
     height: 500px;
+    justify-content: center;
+}
+
+.bg__img-p{
+    padding: 130px;
 }
 
 .p__text{
     font-size: 18px;
     font-weight: 600;
     text-align: center;
+    padding: 10px;
+}
+
+h1 p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sec__content{
+    background-color: #ebb94d;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.sec__content p{
+    color: #fff;
+}
+
+.sec__content-contact{
+    background-color: #da6b64;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px 80px;
+    padding: 25px 50px;
+}
+
+code{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+
+.p__text-first{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+
+.p__text-second{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 40px;
+}
+
+.sns__icon{
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
 }
 
 
-
+/* footer */
 .footer-bottom-ul{
     display: flex;
     padding: 20px 0;
 }
 
-.sns__list {
+.sns__content {
     display: flex;
-    margin: 20px 0;
+    margin: 20px 0 50px;
+    height: 0px;
+    /* justify-content: center;
+    align-items: center; */
 }
