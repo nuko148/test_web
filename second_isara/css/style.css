@@ -77,10 +77,6 @@ p {
     
 }
 
-.main__content img{
-    width: 317px;
-}
-
 .bg__img{
     background-image: url(../img/main.jpg);
     background-position: center;
@@ -153,16 +149,123 @@ code{
 }
 
 
+.bg__introduction{
+    background-image: url(../img/introbottom.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    text-align: center;
+    height: 587px;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.yellow__line{
+    margin: 0 auto;
+    position: relative;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    padding: 15px 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.yellow__line::before{
+    top: 0;
+    left: 0;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+}
+
+.yellow__line::after{
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+}
+
+.yellow__line::before, .yellow__line::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.introduction__text{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.introduction__content{
+    padding: 40px 0;
+}
+
+.introduction__content p{
+    font-size: 16px;
+    font-weight: 200;
+    margin: 0 0 50px;
+    text-align: center;
+}
+
+.introduction__content span{
+    font-weight: bold;
+    background: linear-gradient(transparent 70%, #ebb94d 70%);
+}
+
+.about{
+    text-align: center;
+}
+
+.about__circle{
+    position: relative;
+    top: -40px;
+}
+
+.about__circle p{
+    color: #fff;
+    background-color: #ebb94d;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    line-height: 80px;
+}
+
+.curriculum__square{
+    width: 1170px;
+    max-width: calc(100% - 40px);
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border: 2px solid #ebb94d;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box{
+    padding: 10px;
+    display: inline-block;
+}
+
+.box img {
+    height: 30px;
+}
+
 /* footer */
-.footer-bottom-ul{
+.sns__list {
     display: flex;
-    padding: 20px 0;
+    margin: 20px 0;
+    
 }
 
 .sns__content {
     display: flex;
     margin: 20px 0 50px;
     height: 0px;
-    /* justify-content: center;
-    align-items: center; */
 }
