@@ -193,6 +193,10 @@ code{
     box-sizing: border-box;
 }
 
+.curriculum p{
+    padding-top: 30px;
+}
+
 .introduction__text{
     font-size: 24px;
     font-weight: 600;
@@ -296,15 +300,122 @@ code{
     text-align: center;   
 }
 
+.content2__h2{
+    color:#fff;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
 
+.content2__p{
+    color:#fff;
+    font-size: 13px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
 
+.content2__p span{
+    color: #ebb94d;   
+}
+
+.content__square-white{
+    background-color: #fff;
+    width: 30%;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 30px 40px 40px 40px;
+    
+}
+
+.content__square-yellow{
+    background-color: #ebb94d;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0 0 20px;
+}
+
+.content__title{
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.content__title2{
+    font-size: 14px;
+    font-weight: 600;
+}
 
 
 .bg__color-blue{
     text-align: center;
     background-color: #016ea9;
     color: #fff;
+    height: 100px;
 }
+
+.bg__color-blue p{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 35px;
+}
+
+.bg__color-blue p span{
+    color: #ebb94d;
+}
+
+.content3{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.content3 h2{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.content3 p{
+    padding-bottom: 20px;
+}
+
+
+.content__skill{
+    display: flex;
+    margin: auto;
+}
+
+.content__skill img{
+    width: 180px;
+    margin: 30px 15px;
+}
+
+.content3__p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bg__color-content{
+    width: 100%;
+    padding-top: 40px;
+    background-color: #fef5e0;
+    text-align: center;  
+}
+
+.yellow__line{
+    padding-top: 20px;
+}
+
+.yellow__line-p1{
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.yellow__line-p2{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
 
 
 /* footer */
