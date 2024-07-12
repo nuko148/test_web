@@ -611,6 +611,60 @@ code{
     transform: translateX(-50%); /* 要素全体が自分の幅の50%だけ左に移動で中央へ */
 }
 
+.answer{
+    text-align: center;
+    margin: 50px;
+}
+
+.answer p{
+    padding-bottom: 30px;
+}
+
+.answer__list{
+    max-width: calc(100% - 40px);
+}
+
+.anser__text-1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.anser__text-2{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.anser__text-3{
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+
+
+.answer__list--items{
+    display: flex;
+    padding-bottom: 30px;
+
+}
+
+.answer__list--items span{
+    text-decoration: underline;
+}
+
+.answer__list--items p{
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: left;
+
+}
+
+.answer__list--items img{
+    width: 30%;
+    border: solid;
+    border-color: #ebb94d;
+}
+
+
 /* footer */
 .sns__list {
     display: flex;
