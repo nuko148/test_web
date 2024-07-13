@@ -670,6 +670,119 @@ code{
     border-color: #ebb94d;
 }
 
+.description{
+    background-image: url(../img/classbg.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.description_items{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.description_items-flex{
+    background-color: #fff;
+    border: 2px solid #016ea9;;
+    margin: 15px;
+    border-radius: 5px;
+    
+}
+
+.description_items-flex li{
+    padding: 10px 10px;
+    border-bottom: 1px dotted #e5e5e5;
+}
+
+.description__text1{
+    color: #fff;
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: 600;
+   
+}
+
+.description__text2{
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.description__items-li{
+    background-color: #016ea9;
+    color: #fff;
+}
+
+.support{
+    background-color: #016ea9;
+    color: #fff;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.curriculum__flow{
+    margin: 30px auto;
+}
+
+.curriculum__flow h2{
+    text-align: center;
+}
+
+.curriculum__flow-img{
+    text-align: center;
+}
+
+.curriculum__flow-content{
+    display: flex;
+    margin: 0 40px;
+    background-color: #fef5e0;
+    border-radius: 10px;
+}
+
+.curriculum__flow-item{
+    padding: 30px 30px;
+    
+}
+
+.curriculum__flow-item p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.curriculum__flow-text{
+    margin: 30px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+.curriculum__flow-text p{
+    margin: 20px;
+}
+
+.curriculum__flow-p{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.flow__line{
+    text-align: center;
+    
+}
+
+.inversion{
+    transform: scale(-1, 1);
+}
+
+.why_hongkong{
+    background-image: url(../img/bangkokbg.jpg);
+}
+
 
 /* footer */
 .sns__list {
