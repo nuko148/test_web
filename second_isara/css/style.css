@@ -613,7 +613,8 @@ code{
 
 .answer{
     text-align: center;
-    margin: 50px;
+    margin: 50px auto; /* 左右のマージンをautoにして、要素を中央に寄せる */
+    max-width: 1170px; /* 画面が大きいと広がるので要素の最大幅を指定 */
 }
 
 .answer p{
@@ -643,6 +644,8 @@ code{
 
 .answer__list--items{
     display: flex;
+    justify-content: center; /* 要素を中央に寄せると配置が近くなりますね */
+    gap: 30px; /* 要素間の間隔をgapで広げてみましょう */
     padding-bottom: 30px;
 
 }
@@ -652,14 +655,17 @@ code{
 }
 
 .answer__list--items p{
+    width: 30%; /* テキストの幅を少し調整してやります */
     margin-top: 15px;
     margin-left: 10px;
     text-align: left;
-
+    font-style: italic;
+    color: #777;
+    font-size: 18px;
 }
 
 .answer__list--items img{
-    width: 30%;
+    width: 20%; /* 画像の幅を少し調整 */
     border: solid;
     border-color: #ebb94d;
 }
