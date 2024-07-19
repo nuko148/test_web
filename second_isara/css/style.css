@@ -783,6 +783,50 @@ code{
     background-image: url(../img/bangkokbg.jpg);
 }
 
+.why_hongkong h2{
+    font-size: 24px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.why_hongkong-p{
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.why_hongkong-text-p{
+    padding-bottom: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.why_hongkong-text{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.present{
+    background-color: #f7c23c;
+    text-align: center;
+}
+
+.present_zero-circle{
+    display: flex;
+}
+
+.present_zero-circletext{
+    background-color: #fff;
+    border-radius: 50%;
+}
+
 
 /* footer */
 .sns__list {
